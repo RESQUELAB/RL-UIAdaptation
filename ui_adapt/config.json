@@ -1,0 +1,100 @@
+{
+    "USER": {
+        "AGE": ["teen", "young", "adult", "elder"],
+        "GENDER": ["noObt", "male", "female"]
+    },
+    "PLATFORM": {
+        "DEVICE": ["desktop", "mobile"]
+    },
+    "ENVIRONMENT":{
+        "LOCATION": ["indoor", "outdoor"]
+    },
+    "UIDESIGN": {
+        "LAYOUT": ["list", "grid"],
+        "THEME": ["light", "dark"],
+        "LANGUAGE": ["spanish", "english"]
+    },
+    "ACTIONS": {
+        "MODE": "HEADLESS",
+        "0": {
+            "name": "No operate",
+            "target": "pass",
+            "value": "pass",
+            "api_call": "pass"
+        },
+        "1": {
+            "name": "Change to List",
+            "target": "layout",
+            "value": "list",
+            "api_call": "/adapt list"
+        },
+        "2": {
+            "name": "Change to Grid 2 cols",
+            "target": "layout",
+            "value": "grid",
+            "api_call": "/adapt grid_2"
+        },
+        "3": {
+            "name": "Change to Grid 3 cols",
+            "target": "layout",
+            "value": "grid",
+            "api_call": "/adapt grid_3"
+        },
+        "4": {
+            "name": "Change to Grid 4 cols",
+            "target": "layout",
+            "value": "grid",
+            "api_call": "/adapt grid_4"
+        },
+        "5": {
+            "name": "Change to Grid 5 cols",
+            "target": "layout",
+            "value": "grid",
+            "api_call": "/adapt grid_5"
+        },
+        "6": {
+            "name": "Change to Light theme",
+            "target": "theme",
+            "value": "light",
+            "api_call": "/adapt light"
+        },
+        "7": {
+            "name": "Change to Dark theme",
+            "target": "theme",
+            "value": "dark",
+            "api_call": "/adapt dark"
+        },
+        "8": {
+            "name": "Change to English",
+            "target": "language",
+            "value": "english",
+            "api_call": "/adapt en"
+        },
+        "9": {
+            "name": "Change to Spanish",
+            "target": "language",
+            "value": "spanish",
+            "api_call": "/adapt spanish"
+        }
+    },
+    "API_CONNECTION": {
+        "HOST": "http://127.0.0.1",
+        "PORT": "23336",
+        "RESOURCES": ["/adapt", "/image", "/state"],
+        "RENDER_RESOURCE": "/image"
+    },
+    "INFORMATION":{
+        "name": "This is not used in the config file. Just info for the reader.",
+        "possible_modes":{
+            "HEADLESS": "in case you don't have an APP running.",
+            "API": "In case you have the app running and configured to be adapted through API calls."
+        },
+        "ACTIONS_INFO": "The ID should always be numeric and incremental. Don't leave any gap."
+    },
+    "TBD_PREFERENCES":{
+        "layout": "list",
+        "theme": "light",
+        "language": "spanish"
+    }
+  }
+  

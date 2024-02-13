@@ -1,0 +1,7 @@
+README.md
+setup.py
+ui_adapt.egg-info/PKG-INFO
+ui_adapt.egg-info/SOURCES.txt
+ui_adapt.egg-info/dependency_links.txt
+ui_adapt.egg-info/requires.txt
+ui_adapt.egg-info/top_level.txt
